@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias v="gvim -v"
+alias v="nvim"
 alias p="python3"
 alias c="clear"
 alias o="xdg-open"
