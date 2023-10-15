@@ -40,6 +40,7 @@ return {
                 "docker_compose_language_service",
                 "hls",
                 "jsonls",
+                "pyright",
                 "quick_lint_js",
                 "jedi_language_server",
                 "sqlls"
