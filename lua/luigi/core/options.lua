@@ -13,6 +13,9 @@ opt.autoindent = true
 -- line wrapping
 opt.wrap = false
 
+-- set column marker at 80 chars
+opt.colorcolumn = '80'
+
 -- search
 opt.ignorecase = true
 opt.smartcase = true

@@ -38,12 +38,11 @@ return {
                 "clangd",
                 "dockerls",
                 "docker_compose_language_service",
-                "hls",
                 "jsonls",
                 "pyright",
                 "quick_lint_js",
                 "jedi_language_server",
-                "sqlls"
+                "sqlls",
             },
             -- auto-install configured servers (with lspconfig)
             automatic_installation = true, -- not the same as ensure_installed
