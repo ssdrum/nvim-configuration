@@ -124,11 +124,11 @@ return {
             on_attach = on_attach,
         })
 
-       -- -- configure kotlin server
-       -- lspconfig["kotlin-language-server"].setup({
-       --     capabilities = capabilities,
-       --     on_attach = on_attach,
-       -- })
+       -- configure kotlin server
+       lspconfig.kotlin_language_server.setup{
+           on_attach = on_attach,
+           capabilities = capabilities,
+       }
 
         -- configure lua server (with special settings)
         lspconfig["lua_ls"].setup({
