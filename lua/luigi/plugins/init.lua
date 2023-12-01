@@ -1,4 +1,4 @@
 return {
-	"christoomey/vim-tmux-navigator",
-	-- "github/copilot.vim"
+  "christoomey/vim-tmux-navigator",
+  -- "github/copilot.vim"
 }
