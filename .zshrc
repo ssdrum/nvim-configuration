@@ -1,4 +1,4 @@
-# I you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="simple"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -96,20 +96,27 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Aliases
+# General
 alias v="nvim"
 alias p="python3"
 alias c="clear"
 alias o="xdg-open"
+alias e="exit"
+
+# Tmux
 alias tls="tmux ls"
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
 alias td="tmux detach"
 
+# Git
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
+
 # add go to PATH
 export PATH="usr/local/bin/go:$PATH"
-# add cilk clang to PATH
-# export PATH="/opt/opencilk/bin:$PATH"
-# add llvm clang to PATH
+
+# opam configuration
+[[ ! -r /home/luigidipaolo/.opam/opam-init/init.zsh ]] || source /home/luigidipaolo/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
