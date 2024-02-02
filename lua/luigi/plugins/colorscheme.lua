@@ -1,7 +1,6 @@
 return {
-  "morhetz/gruvbox",
+  "EdenEast/nightfox.nvim",
   config = function()
-    vim.g.gruvbox_contrast_dark = "hard"
-    vim.cmd.colorscheme("gruvbox")
+    vim.cmd([[ colorscheme nightfox ]])
   end,
 }

@@ -42,9 +42,6 @@ return {
         "quick_lint_js",
         "jedi_language_server",
         "sqlls",
-        "kotlin_language_server",
-        "zls",
-        "ocamllsp",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true, -- not the same as ensure_installed
