@@ -42,7 +42,7 @@ return {
 				"jedi_language_server",
 				"sqlls",
 				"gopls",
-				"ts_ls",
+				"tsserver",
 			},
 			-- auto-install configured servers (with lspconfig)
 			automatic_installation = true, -- not the same as ensure_installed
